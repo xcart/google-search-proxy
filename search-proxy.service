@@ -1,0 +1,16 @@
+[Unit]
+Description=X-Cart Google Search caching proxy
+After=network.target
+
+[Service]
+ExecStart=/usr/local/lib/google-search-proxy/proxy.sh
+Restart=always
+User=jekyll
+Group=webmaster
+Environment=PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+Environment=NODE_ENV=production
+WorkingDirectory=/usr/local/lib/google-search-proxy
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
