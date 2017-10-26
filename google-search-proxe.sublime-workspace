@@ -1,0 +1,1005 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"cache",
+				"cacheKey"
+			],
+			[
+				"cach",
+				"cacheman\t(package.json)"
+			],
+			[
+				"sor",
+				"sorted-object\t(package.json)"
+			],
+			[
+				"Google",
+				"GoogleSearchClient"
+			],
+			[
+				"try_",
+				"try_compare_by"
+			],
+			[
+				"Lang",
+				"LanguageSelectorTag"
+			],
+			[
+				"languag",
+				"language_selector"
+			],
+			[
+				"for",
+				"force_active"
+			],
+			[
+				"clipboar",
+				"clipboard-button"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"baseurl",
+				"baseurl_lang"
+			],
+			[
+				"pagin",
+				"paginate_path"
+			],
+			[
+				"cate",
+				"category_dir"
+			],
+			[
+				"categ",
+				"category_pr"
+			],
+			[
+				"category",
+				"category_dir"
+			],
+			[
+				"dele",
+				"delete_index"
+			],
+			[
+				"sear",
+				"search-result-item\t(elasticsearch.wrapper.js)"
+			],
+			[
+				"ind",
+				"indices_boost"
+			],
+			[
+				"ela",
+				"elasticParams"
+			],
+			[
+				"Mar",
+				"MarkupPlugin"
+			],
+			[
+				"curren",
+				"current_index"
+			],
+			[
+				"current",
+				"currentIndex"
+			],
+			[
+				"Tab",
+				"TabTag"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.js",
+			"settings":
+			{
+				"buffer_size": 1621,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 550,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 601.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/drdaemos/repos/google-search-proxy"
+	],
+	"file_history":
+	[
+		"/usr/local/etc/varnish/default.vcl",
+		"/etc/syslog.conf",
+		"/Users/drdaemos/repos/next/src/var/log/2017/10/Onboarding.log.2017-10-23.php",
+		"/usr/local/etc/nginx/logs/next.access.log",
+		"/Users/drdaemos/repos/next/src/var/run/classes/XLite/Model/ProductAbstract.php",
+		"/usr/local/etc/nginx/conf.d/php-fpm",
+		"/Users/drdaemos/repos/xc5-docs/js/elasticsearch.wrapper.js",
+		"/Users/drdaemos/repos/xc5-docs/_config.yml",
+		"/Users/drdaemos/repos/xc5-docs/_plugins/elasticsearch.rb",
+		"/usr/local/etc/php/7.1/php.ini",
+		"/usr/local/etc/nginx/sites-available/next-ssl",
+		"/Users/drdaemos/Downloads/backupanime_10650_2017_02_16.sql",
+		"/Users/drdaemos/repos/xc5-docs/js/googlesearch.wrapper.js",
+		"/Users/drdaemos/repos/xc5-docs/_includes/scripts.html",
+		"/Users/drdaemos/repos/xc5-docs/_plugins/global.rb",
+		"/Users/drdaemos/repos/xc5-docs/en/what_is_new/what_is_new_in_5_3.md",
+		"/Users/drdaemos/repos/xc5-docs/js/search.js",
+		"/Users/drdaemos/repos/xc5-docs/_includes/search_panel.html",
+		"/Users/drdaemos/repos/xc5-docs/en/what_is_new/forwarding_decorators_on_sitepoint.md",
+		"/Users/drdaemos/Downloads/payment.js",
+		"/Users/drdaemos/Downloads/payment.css",
+		"/Users/drdaemos/repos/xc5-docs/_plugins/navigation.rb",
+		"/Users/drdaemos/repos/xc5-docs/_plugins/localization.rb",
+		"/Users/drdaemos/repos/xc5-docs/ru/index.html",
+		"/Users/drdaemos/repos/xc5-docs/_prose.yml",
+		"/Users/drdaemos/repos/xc5-docs/_includes/breadcrumbs.html",
+		"/Users/drdaemos/repos/xc5-docs/_layouts/article.html",
+		"/Users/drdaemos/repos/xc5-docs/_layouts/article_with_sidebar.html",
+		"/Users/drdaemos/repos/xc5-docs/en/index.html",
+		"/Users/drdaemos/repos/xc5-docs/_includes/header.html",
+		"/Users/drdaemos/repos/xc5-docs/_includes/head.html",
+		"/Users/drdaemos/repos/xc5-docs/_sass/_layout.scss",
+		"/Users/drdaemos/repos/xc5-docs/_includes/footer.html",
+		"/Users/drdaemos/repos/xc5-docs/_includes/translate.html",
+		"/Users/drdaemos/repos/xc5-docs/_site/index.html",
+		"/Users/drdaemos/repos/xc5-docs/en/basics/rest_api_documentation.md",
+		"/Users/drdaemos/repos/xc5-docs/en/migration_guides/moving_x-cart_to_another_location.md",
+		"/Users/drdaemos/repos/xc5-docs/en/basics/adding_new_property_to_a_product/adding_new_property_to_a_product_-_part_2_-_value_of_this_field_must_be_saved_after_checkout.md",
+		"/Users/drdaemos/repos/xc5-docs/en/basics/adding_new_property_to_a_product/index.md",
+		"/Users/drdaemos/repos/xc5-docs/en/what_is_new/developer_changes_5_3_2.md",
+		"/Users/drdaemos/repos/xc5-docs/images/logo_white.svg",
+		"/Users/drdaemos/repos/xc5-docs/en/changelog/5.3.2.0_-_30_nov_2016.md",
+		"/Users/drdaemos/repos/xc5-docs/en/what_is_new/applying_cache_techniques.md",
+		"/Users/drdaemos/repos/xc5-docs/_data/authors.yml",
+		"/Users/drdaemos/repos/xc5-docs/_plugins/jekyll-paginate/pagination.rb",
+		"/Users/drdaemos/repos/xc5-docs/_plugins/jekyll-paginate/pager.rb",
+		"/Users/drdaemos/repos/xc5-docs/_layouts/blog.html",
+		"/Users/drdaemos/repos/xc5-docs/en/changelog/5.3.1_-_29_july_2016.md",
+		"/Users/drdaemos/repos/xc5-docs/en/changelog/5.3.1.6_-_17_nov_2016.md",
+		"/etc/hosts",
+		"/Users/drdaemos/repos/xc5-docs/en/basics/templates_and_interfaces.md",
+		"/Users/drdaemos/repos/xc5-docs/en/basics/skin_file_substitution.md",
+		"/Users/drdaemos/repos/xc5-docs/en/changing_store_logic/creating_a_payment_method/creating_settings_page_for_payment_method.md",
+		"/Users/drdaemos/repos/xc5-docs/en/changing_store_logic/creating_a_payment_method/index.md",
+		"/Users/drdaemos/repos/xc5-docs/en/migration_guides/updating_modules_from_5.2_to_5.3_branch.md",
+		"/Users/drdaemos/repos/xc5-docs/js/tabs.js",
+		"/Users/drdaemos/repos/xc5-docs/en/basics/creating_new_page.md",
+		"/Users/drdaemos/repos/xc5-docs/ru/how-to_articles/how_to_move_category_description_below_the_product_list.md",
+		"/Users/drdaemos/repos/xc5-docs/en/design_changes/basic_guide_to_theme_creation.md",
+		"/Users/drdaemos/repos/xc5-docs/en/design_changes/adding_custom_javascript_code_to_the_page.md",
+		"/Users/drdaemos/repos/xc5-docs/en/how-to_articles/how_to_change_the_height_of_the_top_category_banner.md",
+		"/Users/drdaemos/repos/xc5-docs/en/how-to_articles/how_to_remove_transaction_id_info_in_order_notification_emails.md",
+		"/Users/drdaemos/repos/xc5-docs/en/webinars_and_video_tutorials/webinar_2_-_10_apr_2014_-_design_changes_in_x-cart_5_(custom_skins_and_webmaster_kit_modules_intro).md",
+		"/Users/drdaemos/repos/xc5-docs/en/design_changes/customizing_the_admin_and_vendor_signup_pages.md",
+		"/Users/drdaemos/repos/xc5-docs/en/webinars_and_video_tutorials/webinar_3_-_21_aug_2014_-_payment_gateway_creation.md",
+		"/Users/drdaemos/repos/xc5-docs/en/webinars_and_video_tutorials/webinar_1_-_18_mar_2014_-_developing_modules_for_x-cart_5.md",
+		"/Users/drdaemos/repos/xc5-docs/en/webinars_and_video_tutorials/using_webmaster_mode_in_x-cart_5.md",
+		"/Users/drdaemos/repos/xc5-docs/en/webinars_and_video_tutorials/tweaking_css_styles_remove_space_at_the_bottom_of_the_page_with_the_custom_css_feature_tutorial_by_mike_white.md",
+		"/Users/drdaemos/repos/xc5-docs/en/webinars_and_video_tutorials/specifying_your_company_info__changing_the_text_on_the_add_to_cart_button_and_editing_the_contact_us_page_in_x-cart_5.md",
+		"/Users/drdaemos/repos/xc5-docs/en/webinars_and_video_tutorials/removing_the_primary_menu_in_x-cart_5_(with_the_help_of_webmasterkit)_tutorial_by_mike_white.md",
+		"/Users/drdaemos/repos/xc5-docs/en/webinars_and_video_tutorials/building_a_custom_skin_in_x-cart_5_tutorial_by_mike_white.md",
+		"/Users/drdaemos/repos/xc5-docs/en/webinars_and_video_tutorials/basic_front-end_changes_in_x-cart_5.2_-_theme__logo__favicon__home_page_banner.md",
+		"/Users/drdaemos/repos/xc5-docs/en/webinars_and_video_tutorials/adding_a_new_page_in_x_cart_5_tutorial_by_mike_white.md",
+		"/Users/drdaemos/repos/xc5-docs/en/misc/x-cart_classes_structure_and_namespaces.md",
+		"/Users/drdaemos/repos/xc5-docs/en/misc/loading_yaml_file.md",
+		"/Users/drdaemos/repos/xc5-docs/en/misc/how_to_create_translation_module.md",
+		"/Users/drdaemos/repos/xc5-docs/en/misc/how_do_i_submit_my_extension_to_x-cart_marketplace.md",
+		"/Users/drdaemos/repos/xc5-docs/en/misc/debugging_x-cart.md",
+		"/Users/drdaemos/repos/xc5-docs/en/getting_started/step_4_-_working_with_settings/index.md",
+		"/Users/drdaemos/repos/xc5-docs/en/getting_started/step_4_-_working_with_settings/creating_custom_setting_class.md",
+		"/Users/drdaemos/repos/xc5-docs/en/getting_started/step_2_-_applying_design_changes.md",
+		"/Users/drdaemos/repos/xc5-docs/en/getting_started/step_1_-_creating_simplest_module.md",
+		"/Users/drdaemos/repos/xc5-docs/en/getting_started/index.md",
+		"/Users/drdaemos/repos/xc5-docs/en/design_changes/working_with_footer.md",
+		"/Users/drdaemos/repos/xc5-docs/en/design_changes/making_your_custom_widget_cached.md",
+		"/Users/drdaemos/repos/xc5-docs/en/design_changes/implementing_horizontal_attribute_tabs.md",
+		"/Users/drdaemos/repos/xc5-docs/en/design_changes/creating_sidebar_menu_in_customer_area.md",
+		"/Users/drdaemos/repos/xc5-docs/en/design_changes/creating_popup_widget.md",
+		"/Users/drdaemos/repos/xc5-docs/en/design_changes/creating_menu_in_admin_area.md",
+		"/Users/drdaemos/repos/xc5-docs/en/design_changes/adding_third_column.md",
+		"/Users/drdaemos/repos/xc5-docs/en/design_changes/adding_tabs.md",
+		"/Users/drdaemos/repos/xc5-docs/en/design_changes/adding_product_images_to_order_notifications.md",
+		"/Users/drdaemos/repos/xc5-docs/en/design_changes/adding_css_and_js_files_for_mobile_skin.md",
+		"/Users/drdaemos/repos/xc5-docs/en/customization_examples/inserting_an_x-cart_'add_to_cart'_button_in_a_new_page.md",
+		"/Users/drdaemos/repos/xc5-docs/en/changing_store_logic/special_offer_with_free_item.md",
+		"/Users/drdaemos/repos/xc5-docs/en/changing_store_logic/shipping_modifications.md",
+		"/Users/drdaemos/repos/xc5-docs/en/changing_store_logic/making_payment_method_depend_on_shipping_method.md",
+		"/Users/drdaemos/repos/xc5-docs/en/changing_store_logic/forcing_product_quantity_while_adding_to_cart.md",
+		"/Users/drdaemos/repos/xc5-docs/en/changing_store_logic/creating_product_discount.md",
+		"/Users/drdaemos/repos/xc5-docs/en/changing_store_logic/creating_global_discount.md",
+		"/Users/drdaemos/repos/xc5-docs/en/changing_store_logic/creating_custom_email_notifications.md",
+		"/Users/drdaemos/repos/xc5-docs/en/basics/searching_entities_in_repositories/search()_method.md",
+		"/Users/drdaemos/repos/xc5-docs/en/basics/searching_entities_in_repositories/querybuilder.md",
+		"/Users/drdaemos/repos/xc5-docs/en/basics/itemslist_introduction_--_showing_products_on_a_page/itemslist_options_in_customer_area.md",
+		"/Users/drdaemos/repos/xc5-docs/en/basics/itemslist_introduction_--_showing_products_on_a_page/index.md",
+		"/Users/drdaemos/repos/xc5-docs/en/basics/adding_new_property_to_a_product/adding_product_property_via_formmodel_api.md",
+		"/Users/drdaemos/repos/xc5-docs/en/basics/working_with_x-cart_externally.md",
+		"/Users/drdaemos/repos/xc5-docs/en/basics/working_with_viewer_classes.md",
+		"/Users/drdaemos/repos/xc5-docs/en/basics/working_with_sessions.md",
+		"/Users/drdaemos/repos/xc5-docs/en/basics/working_with_product_attributes.md",
+		"/Users/drdaemos/repos/xc5-docs/en/basics/working_with_image_resizing_routine.md",
+		"/Users/drdaemos/repos/xc5-docs/en/basics/working_with_authorization.md",
+		"/Users/drdaemos/repos/xc5-docs/en/basics/using_images_widget.md",
+		"/Users/drdaemos/repos/xc5-docs/en/basics/understanding_models.md",
+		"/Users/drdaemos/repos/xc5-docs/en/basics/retrieving_data_from_the_request.md",
+		"/Users/drdaemos/repos/xc5-docs/en/webinars_and_video_tutorials/webinar_4_-_11_nov_2014_-_basic_principles_of_cms_integration.md",
+		"/Users/drdaemos/repos/xc5-docs/en/webinars_and_video_tutorials/working_with_custom_css_in_x-cart_5_tutorial_by_mike_white.md",
+		"/Users/drdaemos/repos/xc5-docs/en/webinars_and_video_tutorials/x-cart_5_development_lectures_(in_russian_with_english_subtitles).md",
+		"/Users/drdaemos/repos/xc5-docs/en/getting_started/x-cart_sdk.md",
+		"/Users/drdaemos/repos/xc5-docs/en/getting_started/step_3_-_applying_logic_changes.md",
+		"/Users/drdaemos/repos/xc5-docs/en/basics/itemslist_in_admin_area/itemslist_options_in_admin_area.md",
+		"/Users/drdaemos/repos/xc5-docs/en/basics/itemslist_in_admin_area/index.md",
+		"/Users/drdaemos/repos/xc5-docs/en/basics/model_editing_page.md",
+		"/Users/drdaemos/repos/xc5-docs/en/basics/making_requests_to_external_services.md",
+		"/Users/drdaemos/repos/xc5-docs/en/basics/making_one_module_depend_on_another_one_--_creating_a_menu_in_the_customer_area.md",
+		"/Users/drdaemos/repos/xc5-docs/en/basics/how_to_find_out_what_page_is_currently_running.md",
+		"/Users/drdaemos/repos/xc5-docs/en/basics/flexy_guide.md",
+		"/Users/drdaemos/repos/xc5-docs/en/basics/creating_new_entity_--_introduction_of_editable_itemslist_in_admin_area.md"
+	],
+	"find":
+	{
+		"height": 29.0
+	},
+	"find_in_files":
+	{
+		"height": 106.0,
+		"where_history":
+		[
+			"-_site/",
+			"-_site/, *.md",
+			"-_site/",
+			"-_site/, en/*.md, ru/*.md",
+			"-_site/, en/*.md",
+			"-_site/",
+			"-_site",
+			"",
+			"*.md",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"')\n",
+			"qmdbbjizdf0",
+			"devs_tagline",
+			"getting_started_link",
+			"developers_blog_link",
+			"Get started",
+			"amex",
+			"runQuery",
+			"client",
+			"search.run",
+			"get_depth",
+			"depth",
+			"| ",
+			".ui",
+			"table",
+			"ui.small",
+			"small",
+			"small table",
+			"translate.html",
+			"get_depth",
+			"labels",
+			"category_pr",
+			"shippingAddressFields",
+			"afterModules",
+			"getFields",
+			"preload",
+			"+",
+			"+}",
+			"+",
+			"compl",
+			"sorts",
+			"default",
+			"Custom skin",
+			"custom_skin",
+			"^# ",
+			"**orderBy**",
+			"**inventory**",
+			"**target**",
+			"**_key**",
+			"**_cnd**",
+			"**_cnd** ",
+			"**_method**",
+			"**_path**",
+			"request para",
+			"^# ",
+			"# ",
+			"</span>",
+			"doDisplay()",
+			"interface",
+			"zone",
+			"custom_skin",
+			"subcategories_look",
+			"reposito",
+			"border-left",
+			"render_level",
+			"next_level",
+			"page",
+			"puts",
+			"p",
+			"ref_AF6bmvL6",
+			"decorator",
+			"www.x-cart.com/extensions/modules",
+			"www.x-cart.com/extensions/addons",
+			"x-cart.com/extensions",
+			"paginate",
+			"ref_E88KCMDD",
+			"viewlist",
+			"{% ref",
+			"pre, code",
+			"asdasd",
+			"inventory",
+			"[inventory][amount]",
+			"inven",
+			"inventory",
+			"delete_index",
+			"ref_zsGkqC41",
+			"ref_HvrXVNvJ",
+			"ref_6TTqRmzh",
+			"ref_cz32Z9u5",
+			"ref_RoyZCKPo",
+			"ref_MQdca6cP",
+			"ref_LanG54L9",
+			"{% note",
+			"keywords",
+			"^## (.*)$",
+			"^## (",
+			"doctrine",
+			"ref_HvrXVNvJ",
+			"^",
+			"|",
+			"asdasd\\",
+			"so"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"## ",
+			"`orderBy`",
+			"`inventory`",
+			"`target`",
+			"`_key`",
+			"`_cnd`",
+			"`_method`",
+			"`_path`",
+			"## ",
+			"market.x-cart.com/addons",
+			"[amount]",
+			"[amount",
+			"*   [$1](#$1)",
+			"*   ",
+			"*    "
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1621,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1141,
+								1141
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"open_with_edit": true,
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 236.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 550,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								136,
+								136
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 67.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.xdebug":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "google-search-proxe.sublime-project",
+	"replace":
+	{
+		"height": 54.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"elas",
+				"_plugins/elasticsearch.rb"
+			],
+			[
+				"search.html",
+				"_includes/search_panel.html"
+			],
+			[
+				"searc",
+				"js/search.js"
+			],
+			[
+				"wha",
+				"en/what_is_new/what_is_new_in_5_3.md"
+			],
+			[
+				"layout",
+				"_sass/_layout.scss"
+			],
+			[
+				"lay",
+				"_sass/_layout.scss"
+			],
+			[
+				"bre",
+				"_includes/breadcrumbs.html"
+			],
+			[
+				"foo",
+				"_includes/footer.html"
+			],
+			[
+				"brea",
+				"_includes/breadcrumbs.html"
+			],
+			[
+				"glob",
+				"_plugins/global.rb"
+			],
+			[
+				"globa",
+				"_plugins/global.rb"
+			],
+			[
+				"head",
+				"_includes/header.html"
+			],
+			[
+				"con",
+				"_config.yml"
+			],
+			[
+				"rest_",
+				"en/basics/rest_api_documentation.md"
+			],
+			[
+				"navi",
+				"_plugins/navigation.rb"
+			],
+			[
+				"adding_new_pr",
+				"en/basics/adding_new_property_to_a_product/adding_new_property_to_a_product_-_part_2_-_value_of_this_field_must_be_saved_after_checkout.md"
+			],
+			[
+				"changelog/5.3.2",
+				"en/changelog/5.3.1_-_29_july_2016.md"
+			],
+			[
+				"rest",
+				"en/basics/rest_api_documentation.md"
+			],
+			[
+				"auth",
+				"_data/authors.yml"
+			],
+			[
+				"pager.rb",
+				"_plugins/jekyll-paginate/pager.rb"
+			],
+			[
+				"plugins/pa",
+				"_plugins/jekyll-paginate/pagination.rb"
+			],
+			[
+				"blo",
+				"_layouts/blog.html"
+			],
+			[
+				"whi",
+				"en/what_is_new/what_is_new_in_5_3.md"
+			],
+			[
+				"payment",
+				"en/changing_store_logic/creating_a_payment_method/creating_settings_page_for_payment_method.md"
+			],
+			[
+				"templat",
+				"en/basics/templates_and_interfaces.md"
+			],
+			[
+				"skinf",
+				"en/basics/skin_file_substitution.md"
+			],
+			[
+				"upda",
+				"en/migration_guides/updating_modules_from_5.2_to_5.3_branch.md"
+			],
+			[
+				"script",
+				"_includes/scripts.html"
+			],
+			[
+				"tab",
+				"js/tabs.js"
+			],
+			[
+				"creating",
+				"en/basics/creating_new_page.md"
+			],
+			[
+				"updat",
+				"en/migration_guides/updating_modules_from_5.2_to_5.3_branch.md"
+			],
+			[
+				"ru/",
+				"ru/how-to_articles/how_to_move_category_description_below_the_product_list.md"
+			],
+			[
+				"scripts",
+				"_includes/scripts.html"
+			],
+			[
+				"twig",
+				"en/basics/twig_guide.md"
+			],
+			[
+				"ru/get",
+				"ru/getting-started/index.md"
+			],
+			[
+				"link",
+				"_site/links.xml"
+			],
+			[
+				"nav",
+				"_plugins/navigation.rb"
+			],
+			[
+				"paginage",
+				"_plugins/jekyll-paginate/pager.rb"
+			],
+			[
+				"code_",
+				"en/misc/testing_module_for_code_style.md"
+			],
+			[
+				"fatal",
+				"en/misc/dealing_with_x-cart_fatal_errors.md"
+			],
+			[
+				"dto",
+				"en/basics/new_form/form-model-dto.md"
+			],
+			[
+				"adding_new_p",
+				"en/basics/adding_new_property_to_a_product/adding_new_property_to_a_product_-_part_2_-_value_of_this_field_must_be_saved_after_checkout.md"
+			],
+			[
+				"adding_new_pa",
+				"_site/en/basics/adding_new_property_to_a_product/adding_new_property_to_a_product_-_part_2_-_value_of_this_field_must_be_saved_after_checkout.html"
+			],
+			[
+				"wrapp",
+				"js/elasticsearch.wrapper.js"
+			],
+			[
+				"sear",
+				"js/search.js"
+			],
+			[
+				"footer",
+				"_includes/footer.html"
+			],
+			[
+				"what",
+				"en/what_is_new/what_is_new_in_5_3.md"
+			],
+			[
+				"gri",
+				"_includes/grid_menu.html"
+			],
+			[
+				"page.r",
+				"_plugins/jekyll-paginate/pager.rb"
+			],
+			[
+				"blog",
+				"_layouts/blog.html"
+			],
+			[
+				"pagina",
+				"_plugins/jekyll-paginate/pagination.rb"
+			],
+			[
+				"syn",
+				"_sass/_syntax-highlighting.scss"
+			],
+			[
+				"synta",
+				"_sass/_syntax-highlighting.scss"
+			],
+			[
+				"webmas",
+				"en/webinars_and_video_tutorials/using_webmaster_mode_in_x-cart_5.md"
+			],
+			[
+				"applyingds",
+				"en/getting_started/step_2_-_applying_design_changes.md"
+			],
+			[
+				"upgra",
+				"en/migration_guides/updating_modules_from_5.2_to_5.3_branch.md"
+			],
+			[
+				"flexy",
+				"en/basics/flexy_guide.md"
+			],
+			[
+				"what_s_new",
+				"en/what_is_new/index.md"
+			],
+			[
+				"how_to_move",
+				"en/how-to_articles/how_to_move_category_description_below_the_product_list.md"
+			],
+			[
+				"how_to_",
+				"en/how-to_articles/how_to_move_category_description_below_products_list.md"
+			],
+			[
+				"changeload",
+				"en/changelog/5.3.1.2_-_17_aug_2016.md"
+			],
+			[
+				"specia",
+				"en/changing_store_logic/special_offer_with_free_item.md"
+			],
+			[
+				"glo",
+				"_plugins/global.rb"
+			],
+			[
+				"elast",
+				"js/elasticsearch.wrapper.js"
+			],
+			[
+				"",
+				"en/migration_guides/updating_modules_from_5.2_to_5.3_branch.md"
+			],
+			[
+				"sy",
+				"_sass/_syntax-highlighting.scss"
+			],
+			[
+				"la",
+				"_sass/_layout.scss"
+			],
+			[
+				"up",
+				"_includes/updated_at.html"
+			],
+			[
+				"b",
+				"_includes/breadcrumbs.html"
+			],
+			[
+				"hea",
+				"_includes/head.html"
+			],
+			[
+				"ud",
+				"_includes/updated_at.html"
+			],
+			[
+				"_la",
+				"_sass/_layout.scss"
+			],
+			[
+				"_base",
+				"_sass/_base.scss"
+			],
+			[
+				"vers",
+				"en/misc/x-cart_versions.md"
+			],
+			[
+				"update",
+				"en/migration_guides/updating_modules_from_5.2_to_5.3_branch.md"
+			],
+			[
+				"migra",
+				"en/migration_guides/migration_from_x-cart_4_to_x-cart_5.md"
+			],
+			[
+				"sea",
+				"js/search.js"
+			],
+			[
+				"sc",
+				"_includes/scripts.html"
+			],
+			[
+				"search_",
+				"_includes/search_panel.html"
+			],
+			[
+				"wra",
+				"js/elasticsearch.wrapper.js"
+			],
+			[
+				"wrap",
+				"js/elasticsearch.wrapper.js"
+			],
+			[
+				"wrapper",
+				"js/elasticsearch.wrapper.js"
+			],
+			[
+				"layout.c",
+				"_sass/_layout.scss"
+			],
+			[
+				"headh",
+				"_includes/head.html"
+			],
+			[
+				"search",
+				"js/search.js"
+			],
+			[
+				"form",
+				"en/basics/new_form/form-sections.md"
+			],
+			[
+				"basic",
+				"en/design_changes/basic_guide_to_theme_creation.md"
+			],
+			[
+				"skin",
+				"en/webinars_and_video_tutorials/building_a_custom_skin_in_x-cart_5_tutorial_by_mike_white.md"
+			],
+			[
+				"module",
+				"en/getting_started/step_1_-_creating_simplest_module.md"
+			],
+			[
+				"acces",
+				"en/basics/accessing_data_of_current_user_profile.md"
+			],
+			[
+				"imple",
+				"en/design_changes/implementing_horizontal_attribute_tabs.md"
+			],
+			[
+				"eals",
+				"_plugins/elasticsearch.rb"
+			],
+			[
+				"submit",
+				"en/misc/how_do_i_submit_my_extension_to_x-cart_marketplace.md"
+			],
+			[
+				"el",
+				"_plugins/elasticsearch.rb"
+			],
+			[
+				"sdk",
+				"en/getting_started/x-cart_sdk.md"
+			],
+			[
+				"mark",
+				"_plugins/markup.rb"
+			],
+			[
+				"migra/",
+				"en/migration_guides/migration_from_litecommerce_3_to_x-cart_5.md"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/repos/next.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 397.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
