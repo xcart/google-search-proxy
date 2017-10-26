@@ -7,8 +7,13 @@ var hash = require('object-hash');
 var google = require('googleapis')
 var search = google.customsearch({
   version: 'v1',
-  params: { auth: 'AIzaSyAJb0k9_k-7BBsH5zokCAmzFi6b_q7mM8Q', cx: '008796395008737420327:78zys-vxswo' }
+  params: { auth: process.env.CSE_AUTH, cx: process.env.CSE_CX }
 });
+
+if (!process.env.CSE_AUTH || !process.env.CSE_CX) {
+    console.error('Specify CSE_AUTH and CSE_CX environmental variables to run google search');
+    process.exit();
+}
 
 var app = express()
 var cache = new Cacheman('search', {
