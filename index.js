@@ -1,4 +1,10 @@
+var fs = require('fs');
+var http = require('http');
+var https = require('https');
+var privateKey  = fs.readFileSync('sslcert/server.key', 'utf8');
+var certificate = fs.readFileSync('sslcert/server.crt', 'utf8');
 var express = require('express')
+var credentials = {key: privateKey, cert: certificate};
 var path = require('path');
 var Cacheman = require('cacheman')
 var FileCache = require('cacheman-file')
@@ -46,16 +52,16 @@ var cacheMiddleware = function(req, res, next) {
 
 var proxyMiddleware = function(req, res, next) {    
     res.set(CACHE_STATUS_HEADER, 'Miss');
-
+    var key = cacheKey(req);
     var query = req.query;
     if (!query.siteSearch) {
-        query.q += ' site:kb.x-cart.com OR site:devs.x-cart.com';        
+        query.q += (query.lang === 'ru' ? ' site:kb.x-cart.ru OR site:devs.x-cart.ru' : ' site:kb.x-cart.com OR site:devs.x-cart.com');        
     }
 
     console.log(query);
 
     search.cse.list(query, (err, search) => {
-        cache.set(cacheKey(req), search);
+        cache.set(key, search);
         res.send(search);
     })
 }
@@ -64,6 +70,10 @@ var handler = [cacheMiddleware, proxyMiddleware];
 
 app.use('/search', handler)
 
-app.listen(process.env.PORT || 3000, function () {
-  console.log('Google Search caching proxy has started successfully')
-})
+var credentials = {key: privateKey, cert: certificate};
+
+var httpServer = http.createServer(app);
+var httpsServer = https.createServer(credentials, app);
+
+httpServer.listen(process.env.HTTP_PORT);
+httpsServer.listen(process.env.HTTPS_PORT);

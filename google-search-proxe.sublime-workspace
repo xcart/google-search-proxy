@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"pro",
+				"process"
+			],
+			[
+				"CS",
+				"CSE_AUTH"
+			],
+			[
 				"cache",
 				"cacheKey"
 			],
@@ -100,11 +108,19 @@
 	"buffers":
 	[
 		{
-			"file": "index.js",
+			"file": ".gitignore",
 			"settings":
 			{
-				"buffer_size": 1621,
+				"buffer_size": 899,
 				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "package-lock.json",
+			"settings":
+			{
+				"buffer_size": 34780,
 				"line_ending": "Unix"
 			}
 		},
@@ -112,7 +128,35 @@
 			"file": "package.json",
 			"settings":
 			{
-				"buffer_size": 550,
+				"buffer_size": 438,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "proxy.sh",
+			"settings":
+			{
+				"buffer_size": 69,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.js",
+			"settings":
+			{
+				"buffer_size": 2180,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "search-proxy.service",
+			"settings":
+			{
+				"buffer_size": 401,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		}
@@ -178,6 +222,8 @@
 	],
 	"file_history":
 	[
+		"/Users/drdaemos/repos/google-search-proxy/index.js",
+		"/Users/drdaemos/repos/google-search-proxy/node_modules/cacheman-memory/node_modules-/source-map/dist/source-map.js",
 		"/usr/local/etc/varnish/default.vcl",
 		"/etc/syslog.conf",
 		"/Users/drdaemos/repos/next/src/var/log/2017/10/Onboarding.log.2017-10-23.php",
@@ -303,9 +349,7 @@
 		"/Users/drdaemos/repos/xc5-docs/en/basics/model_editing_page.md",
 		"/Users/drdaemos/repos/xc5-docs/en/basics/making_requests_to_external_services.md",
 		"/Users/drdaemos/repos/xc5-docs/en/basics/making_one_module_depend_on_another_one_--_creating_a_menu_in_the_customer_area.md",
-		"/Users/drdaemos/repos/xc5-docs/en/basics/how_to_find_out_what_page_is_currently_running.md",
-		"/Users/drdaemos/repos/xc5-docs/en/basics/flexy_guide.md",
-		"/Users/drdaemos/repos/xc5-docs/en/basics/creating_new_entity_--_introduction_of_editable_itemslist_in_admin_area.md"
+		"/Users/drdaemos/repos/xc5-docs/en/basics/how_to_find_out_what_page_is_currently_running.md"
 	],
 	"find":
 	{
@@ -457,68 +501,190 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 4,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "index.js",
+					"file": ".gitignore",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1621,
+						"buffer_size": 899,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1141,
-								1141
+								13,
+								13
 							]
 						],
 						"settings":
 						{
 							"git_gutter_is_enabled": true,
 							"open_with_edit": true,
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 236.0,
+						"translation.y": 113.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "package.json",
+					"file": "package-lock.json",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 550,
+						"buffer_size": 34780,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								136,
-								136
+								0,
+								0
 							]
 						],
 						"settings":
 						{
 							"git_gutter_is_enabled": true,
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 438,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								401,
+								401
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "proxy.sh",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 69,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								69,
+								69
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"open_with_edit": true,
+							"syntax": "Packages/ShellScript/Shell-Unix-Generic.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2180,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1498,
+								1498
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 707.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "search-proxy.service",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 401,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								401,
+								401
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"open_with_edit": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
