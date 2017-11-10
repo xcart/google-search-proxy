@@ -1,10 +1,4 @@
-var fs = require('fs');
-var http = require('http');
-var https = require('https');
-var privateKey  = fs.readFileSync('sslcert/server.key', 'utf8');
-var certificate = fs.readFileSync('sslcert/server.crt', 'utf8');
-var express = require('express')
-var credentials = {key: privateKey, cert: certificate};
+var express = require('express');
 var path = require('path');
 var Cacheman = require('cacheman')
 var FileCache = require('cacheman-file')
@@ -70,10 +64,6 @@ var handler = [cacheMiddleware, proxyMiddleware];
 
 app.use('/search', handler)
 
-var credentials = {key: privateKey, cert: certificate};
-
-var httpServer = http.createServer(app);
-var httpsServer = https.createServer(credentials, app);
-
-httpServer.listen(process.env.HTTP_PORT);
-httpsServer.listen(process.env.HTTPS_PORT);
+app.listen(process.env.PORT || 3000, function () {
+    console.log('Google Search caching proxy has started successfully')
+}) 
