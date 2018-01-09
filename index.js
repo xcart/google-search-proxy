@@ -10,8 +10,15 @@ var search = google.customsearch({
   params: { auth: process.env.CSE_AUTH, cx: process.env.CSE_CX }
 });
 
+if (process.env.CSE_CX_RU) {    
+    var searchRu = google.customsearch({
+      version: 'v1',
+      params: { auth: process.env.CSE_AUTH, cx: process.env.CSE_CX_RU }    
+    })
+}
+
 if (!process.env.CSE_AUTH || !process.env.CSE_CX) {
-    console.error('Specify CSE_AUTH and CSE_CX environmental variables to run google search');
+    console.error('Specify CSE_AUTH, CSE_CX environmental variables to run google search');
     process.exit();
 }
 
@@ -52,9 +59,13 @@ var proxyMiddleware = function(req, res, next) {
         query.q += (query.lang === 'ru' ? ' site:kb.x-cart.ru OR site:devs.x-cart.ru' : ' site:kb.x-cart.com OR site:devs.x-cart.com');        
     }
 
-    console.log(query);
+    var api = search;
 
-    search.cse.list(query, (err, search) => {
+    if (query.lang === 'ru' && typeof(searchRu) !== 'undefined') {
+        api = searchRu;
+    }
+
+    api.cse.list(query, (err, search) => {
         cache.set(key, search);
         res.send(search);
     })
